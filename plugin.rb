@@ -3,13 +3,14 @@
 # name: DiscourseMatheditor
 # about: This Plugin makes it easier to enter math symbols, equations, etc.
 # version: 0.1
-# authors: spirobel
-# url: https://github.com/spirobel
+# authors: spirobel, bbirkett
+# url: https://github.com/bbirkett
 register_asset 'stylesheets/common/mathlive.core.css'
 register_asset 'stylesheets/common/mathlive.css'
 register_asset 'stylesheets/common/discourse-matheditor.scss'
 register_asset 'stylesheets/desktop/discourse-matheditor.scss', :desktop
 register_asset 'stylesheets/mobile/discourse-matheditor.scss', :mobile
+register_svg_icon "square-root-alt" if respond_to?(:register_svg_icon)
 
 enabled_site_setting :discourse_matheditor_enabled
 

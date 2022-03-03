@@ -15,14 +15,17 @@ function initializeDiscourseMatheditor(api) {
 
 
   api.modifyClass("controller:composer", {
-
+    pluginId: "math-editor",
     actions: {
       showMathEditor() {
+        const controller = getOwner(this).lookup('controller:composer');
         const modalcontroller = showModal("matheditor-modal").set("toolbarEvent", this.toolbarEvent);
             Ember.run.later(this, (function() {
               this.toolbarEvent.mathfield = MathLive.makeMathField('mathfield',{ virtualKeyboardMode: "manual"});
+              controller.toolbarEvent.mathfield.$perform("showVirtualKeyboard")
             }), 50);
       }
+     
     }
   });
 
@@ -31,13 +34,12 @@ function initializeDiscourseMatheditor(api) {
   api.addToolbarPopupMenuOptionsCallback(() => {
      return {
        action: "showMathEditor",
-       icon: "chart-bar",
+       icon: "square-root-alt",
        label: "discourse_matheditor.openeditor",
      };
    });
-
-
 }
+
 
 export default {
   name: "discourse-matheditor",
