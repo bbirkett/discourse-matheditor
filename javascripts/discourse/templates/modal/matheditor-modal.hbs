@@ -1,0 +1,15 @@
+{{#d-modal-body title=(theme-prefix 'editor_opened') class='poll-ui-builder'}}
+  <div id='mathfield' style='border: 1px solid #999;padding:5px;'>
+
+  </div>
+
+{{/d-modal-body}}
+
+<div class='modal-footer'>
+  {{d-button
+    action=(action 'insertEq')
+    class='btn-primary'
+    label=(theme-prefix 'insert_equation')
+    disabled=disableInsert
+  }}
+</div>

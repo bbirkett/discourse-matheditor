@@ -1,4 +1,0 @@
-plugins:
-  discourse_matheditor_enabled:
-    default: true
-    client: true

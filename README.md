@@ -1,18 +1,16 @@
-# DiscourseMatheditor
+# Discourse Math Editor (Theme Component)
 
-DiscourseMatheditor is a plugin to enter math equations into Discourse in a more user friendly way. This editor helps you to create LaTeX. Please read on wikipedia about it if you dont know what it is: [wikipedia](https://en.wikipedia.org/wiki/LaTeX)
-For more documentation on all the LateX commands that you can use please have a look here: [mathlive docs](http://mathlive.io/)
-And please watch the video: [youtube](https://youtu.be/SOxe3-lxXlk)
+> This theme component is a converted version of the [plugin](https://github.com/spirobel/discourse-matheditor) created by [spirobel](https://github.com/spirobel).
+
+This theme component allows you to enter math equations into Discourse in a more user friendly way. This editor helps you to create LaTeX. Please read on LaTeX [here](https://en.wikipedia.org/wiki/LaTeX) if you don't know what it is. For more documentation on all the LateX commands that you can use please have a look at the [mathlive documentation](http://mathlive.io/) and please watch this video on [YouTube](https://youtu.be/SOxe3-lxXlk)
+
 ## Installation
 
-Follow [Install a Plugin](https://meta.discourse.org/t/install-a-plugin/19157)
-how-to from the official Discourse Meta, using `git clone https://github.com/spirobel/discourse-matheditor.git`
-as the plugin command.
-You also need to use the official math plugin together with this:
-[offical math plugin](https://meta.discourse.org/t/discourse-math-plugin/65770)
-I recommend using KateX instead of MathJax, its way faster (at least for me).
+Please follow Discourse's guide on [how to install theme components](https://meta.discourse.org/t/how-do-i-install-a-theme-or-theme-component/63682).
 
-## Feedback
+> ⚠️ Note: You also need to use the [official Math Plugin](https://meta.discourse.org/t/discourse-math-plugin/65770) together with this. I recommend using KateX on your configuration instead of MathJax, as it is much faster.
 
-If you have issues or suggestions for the plugin, please bring them up on
-[Discourse Meta](https://meta.discourse.org).
+## Screenshots
+
+![Toggle](.github/images/toolbar-item.png)
+![Toggle](.github/images/keyboard.png)
