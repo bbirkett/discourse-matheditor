@@ -1,0 +1,5 @@
+en:
+  theme_metadata:
+    description: 'Allows the ability to enter math equations in Discourse in a more user friendly way.'
+  editor_opened: 'Math Editor'
+  insert_equation: 'Insert Equation'

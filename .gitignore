@@ -1,3 +1,4 @@
-public/.DS_Store
-public/mathlive/.DS_Store
-assets/stylesheets/.DS_Store
+.discourse-site
+node_modules
+HELP
+.DS_Store

@@ -1,0 +1,159 @@
+@font-face {
+  font-family: KaTeX_AMS;
+  src: url($katex_ams_regular) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: KaTeX_Caligraphic;
+  src: url($katex_caligraphic_bold) format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: KaTeX_Caligraphic;
+  src: url($katex_caligraphic_regular) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: KaTeX_Fraktur;
+  src: url($katex_fraktur_bold) format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: KaTeX_Fraktur;
+  src: url($katex_fraktur_regular) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: KaTeX_Main;
+  src: url($katex_main_bold_italic) format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: KaTeX_Main;
+  src: url($katex_main_bold) format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: KaTeX_Main;
+  src: url($katex_main_italic) format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: KaTeX_Math;
+  src: url($katex_math_bold_italic) format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: 'KaTeX_SansSerif';
+  src: url($katex_sans_serif_bold) format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: 'KaTeX_SansSerif';
+  src: url($katex_sans_serif_italic) format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: 'KaTeX_SansSerif';
+  src: url($katex_sans_serif_regular) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: KaTeX_Script;
+  src: url($katex_script_regular) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: KaTeX_Size1;
+  src: url($katex_size_1_regular) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: KaTeX_Size2;
+  src: url($katex_size_2_regular) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: KaTeX_Size3;
+  src: url($katex_size_3_regular) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: KaTeX_Size4;
+  src: url($katex_size_4_regular) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: KaTeX_Typewriter;
+  src: url($katex_typewriter_regular) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: KaTeX_Main;
+  src: url($katex_main_regular) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: 'swap';
+}
+
+@font-face {
+  font-family: KaTeX_Math;
+  src: url($katex_math_italic) format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: 'swap';
+}
