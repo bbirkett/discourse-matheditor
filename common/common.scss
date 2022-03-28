@@ -1,4 +1,5 @@
 @import 'katex-fonts';
+@import 'core';
 
 .matheditor-modal-modal {
   .modal-inner-container {
@@ -45,7 +46,7 @@
 }
 
 .ML__textarea {
-  display: none;
+  // display: none;
 }
 
 .ML__mathit {
